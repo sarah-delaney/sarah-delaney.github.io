@@ -1,15 +1,23 @@
 .App {
-  text-align: center;
+  background: rgb(168,200,223);
+  background: linear-gradient(278deg, rgba(168,200,223,1) 0%, rgba(85,128,163,1) 100%);
 }
 
-
-.App-header {
-  background-color: #282c34;
+.content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+.name {
+  color: blue;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 3em;
+}
+.bioSection {
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.bioImg {
+  height: 20em;
 }
