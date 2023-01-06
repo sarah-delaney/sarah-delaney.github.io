@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca57846c.css",
-    "main.js": "/static/js/main.10cd9d03.js",
+    "main.css": "/static/css/main.f59c0757.css",
+    "main.js": "/static/js/main.aae6fcc9.js",
     "static/js/787.984d7809.chunk.js": "/static/js/787.984d7809.chunk.js",
+    "static/media/ireland.jpg": "/static/media/ireland.acf7de2f3f4314657096.jpg",
+    "static/media/skiing.jpg": "/static/media/skiing.9b3de93ea12642bba921.jpg",
+    "static/media/plant.jpg": "/static/media/plant.6dcde1340142a4f610cd.jpg",
+    "static/media/me.jpg": "/static/media/me.9a229821bc0a4795b14e.jpg",
+    "static/media/nyc.jpg": "/static/media/nyc.2515e42a52dc04ef6275.jpg",
+    "static/media/boston.jpg": "/static/media/boston.03bb27b5b85cab3f9705.jpg",
+    "static/media/paris.JPG": "/static/media/paris.91648cd7d84f6efb045e.JPG",
     "index.html": "/index.html",
-    "main.ca57846c.css.map": "/static/css/main.ca57846c.css.map",
-    "main.10cd9d03.js.map": "/static/js/main.10cd9d03.js.map",
+    "main.f59c0757.css.map": "/static/css/main.f59c0757.css.map",
+    "main.aae6fcc9.js.map": "/static/js/main.aae6fcc9.js.map",
     "787.984d7809.chunk.js.map": "/static/js/787.984d7809.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca57846c.css",
-    "static/js/main.10cd9d03.js"
+    "static/css/main.f59c0757.css",
+    "static/js/main.aae6fcc9.js"
   ]
 }
