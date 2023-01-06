@@ -1,23 +1,4 @@
 .App {
-  background: rgb(168,200,223);
-  background: linear-gradient(278deg, rgba(168,200,223,1) 0%, rgba(85,128,163,1) 100%);
-}
-
-.content {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.name {
-  color: blue;
-  margin-top: 80px;
-  text-align: center;
-  font-size: 3em;
-}
-.bioSection {
-  justify-content: space-between;
-  align-items: center;
-}
-.bioImg {
-  height: 20em;
+  background: rgb(127,182,222);
+  background: linear-gradient(278deg, rgba(127,182,222,1) 0%, rgba(205,212,218,1) 100%);
 }
