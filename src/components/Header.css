@@ -1,10 +1,18 @@
+.nav {
+    background-color: #5F7BA4;
+}
 .toolbar {
     width: 100%;
     justify-content: space-between;
+    padding: 20px 0;
 }
 .name {
     text-align: center;
-    padding-top: 7px;
-    font-family: Cormorant, serif;
-    font-size: 1.5em;
+    font-family: Poppins;
+    font-size: 1.6em;
+}
+.MuiButton-label {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.1em;
 }

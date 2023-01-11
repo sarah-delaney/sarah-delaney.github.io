@@ -8,7 +8,7 @@ export default function Header() {
   
   return (
     <AppBar position='fixed' component='nav'>
-      <Toolbar>
+      <Toolbar className='nav'>
         {/* make these navigate to their corresponding pages on click */}
         <Row className="toolbar">
           <span className='name'>Sarah Delaney</span>
