@@ -2,6 +2,7 @@ import './Header.css';
 import { AppBar, Button, Toolbar } from "@material-ui/core";
 import React, { ChangeEvent } from "react";
 import Row from "./Row";
+const sdIcon = require('../assets/icon-thin.png');
 
 export default function Header() {
   const [page, setPage] = React.useState('about');
@@ -11,7 +12,10 @@ export default function Header() {
       <Toolbar className='nav'>
         {/* make these navigate to their corresponding pages on click */}
         <Row className="toolbar">
-          <span className='name'>Sarah Delaney</span>
+          <Row className='nameRow'>
+            <img src={sdIcon} className="headerIcon"/>
+            <span className='name'>Sarah Delaney</span>
+          </Row>
           <Row>
             <Button onClick={()=>setPage('about')}>About Me</Button>
             <Button onClick={()=>setPage('resume')}>Resume</Button>
