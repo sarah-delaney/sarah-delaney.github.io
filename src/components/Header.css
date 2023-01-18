@@ -11,15 +11,25 @@
 }
 .name {
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 1.6em;
 }
 .headerIcon {
     height: 70px;
     padding-right: 10px;
 }
-.MuiButton-label {
+.links {
+    align-content: center;
+    flex-wrap: wrap;
+}
+a {
     color: #fff;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 1.1em;
+    text-decoration: none;
+    padding: 10px;
+    height: min-content;
+}
+.active {
+    color: #2B405F;
 }
