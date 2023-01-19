@@ -18,9 +18,9 @@ export default function Header() {
             <span className='name'>Sarah Delaney</span>
           </Row>
           <Row className='links'>
-            <NavLink to="about" className={page==='about' ? 'active' : ''} onClick={()=>setPage('about')}>About Me</NavLink>
-            <NavLink to="resume" className={page==='resume' ? 'active' : ''} onClick={()=>setPage("resume")}>Resume</NavLink>
-            <NavLink to="/" className={page==='contact' ? 'active' : ''} onClick={()=>setPage("contact")}>Contact</NavLink>
+            <NavLink to="about" className={page ==='about' ? 'active' : ''} onClick={()=>setPage('about')}>About Me</NavLink>
+            <NavLink to="resume" className={page ==='resume' ? 'active' : ''} onClick={()=>setPage("resume")}>Resume</NavLink>
+            <NavLink to="/" className={page ==='contact' ? 'active' : ''} onClick={()=>setPage("contact")}>Contact</NavLink>
           </Row>
         </Row>
       </Toolbar>

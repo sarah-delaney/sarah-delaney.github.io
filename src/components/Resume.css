@@ -1,3 +1,33 @@
 .resume {
-    margin-top: 130px;
+    color: #2B405F;
+}
+.downloadRow {
+    justify-content: center;
+}
+.downloadLink {
+    color: inherit;
+    cursor: pointer;
+    border: 2px solid #2B405F;
+    border-radius: 30px;
+}
+.downloadIcon {
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.resumeSection {
+    min-width: 35%;
+}
+.sectionTitle {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    border-bottom: solid 2.5px #2B405F;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    width: fit-content;
+}
+.subTitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Montserrat';
 }

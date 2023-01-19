@@ -2,6 +2,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 130px 40px 0 40px;
 }
 .aboutMe {
     color: #2B405F;
@@ -9,14 +10,13 @@
     padding-bottom: 10px;
     border-bottom: solid 2.5px #2B405F;
     font-weight: 600;
-    margin: 130px 40px 20px 40px;
-    padding-left: 10px;
+    padding: 0 0 20px 10px;
     font-family: 'Montserrat';
 }
 .bioSection {
     justify-content: space-between;
     align-items: center;
-    padding: 40px 40px;
+    padding: 40px 0;
 }
 .bioImg {
     height: 20em;
