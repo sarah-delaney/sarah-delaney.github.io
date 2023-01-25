@@ -10,12 +10,12 @@ export default function Contact() {
     return <div className='content'> 
         <Column className="contactColumn">
             <Row className='contactTitle'>Contact me !</Row>
-        <Column>
-        <Row><a className='contactItem' href="mailto:delaney.sar@northeastern.edu"><MailOutlineIcon/><span>delaney.sar@northeastern.edu</span></a></Row>
-        <Row><a className='contactItem' href="https://www.google.ca/maps/place/Boston" target='_blank'><LocationOnOutlinedIcon/><span>Boston, MA</span></a></Row>
-        <Row><a className='contactItem' href='https://github.com/sarah-delaney' target='_blank'><GitHubIcon/><span>github.com/sarah-delaney</span></a></Row>
-        <Row><a className='contactItem' href='https://www.linkedin.com/in/sarahdelaney82301' target='_blank'><LinkedInIcon/><span>linkedin.com/in/sarahdelaney82301</span></a></Row>
-    </Column>
-    </Column>
+            <Column className='contactItems'>
+                <Row><a className='contactItem' href="mailto:delaney.sar@northeastern.edu"><MailOutlineIcon/><span>delaney.sar@northeastern.edu</span></a></Row>
+                <Row><a className='contactItem' href="https://www.google.ca/maps/place/Boston" target='_blank'><LocationOnOutlinedIcon/><span>Boston, MA</span></a></Row>
+                <Row><a className='contactItem' href='https://github.com/sarah-delaney' target='_blank'><GitHubIcon/><span>github.com/sarah-delaney</span></a></Row>
+                <Row><a className='contactItem' href='https://www.linkedin.com/in/sarahdelaney82301' target='_blank'><LinkedInIcon/><span>linkedin.com/in/sarahdelaney82301</span></a></Row>
+            </Column>
+        </Column>
     </div>
 }

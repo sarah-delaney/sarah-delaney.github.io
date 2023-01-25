@@ -3,6 +3,7 @@
 }
 .downloadRow {
     justify-content: center;
+    padding-bottom: 30px;
 }
 .downloadLink {
     color: inherit;
@@ -30,4 +31,16 @@
     font-size: 1.3em;
     font-weight: 600;
     font-family: 'Montserrat';
+    padding-bottom: 10px;
+}
+.italic {
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.sectionContent {
+    font-family: 'Poppins';
+}
+ul {
+    margin-top: 0;
 }

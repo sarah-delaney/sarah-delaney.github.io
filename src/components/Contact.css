@@ -17,3 +17,9 @@
     font-family: 'Montserrat';
     margin-bottom: 30px;
 }
+.contactItems {
+    font-size: 1.2em;
+    margin-top: 70px;
+    border: 1px solid white;
+    padding: 10px;
+}
