@@ -6,12 +6,9 @@ import { NavLink } from 'react-router-dom';
 const sdIcon = require('../assets/icon-thin.png');
 
 export default function Header() {
-  // const [page, setPage] = React.useState<string | undefined>();
-  // console.log(page);
   return (
     <AppBar position='fixed' component='nav'>
       <Toolbar className='nav'>
-        {/* make these navigate to their corresponding pages on click */}
         <Row className="toolbar">
           <Row className='nameRow'>
             <img src={sdIcon} className="headerIcon"/>
