@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 const sdIcon = require('../assets/icon-thin.png');
 
 export default function Header() {
-  const [page, setPage] = React.useState('about');
-  
+  // const [page, setPage] = React.useState<string | undefined>();
+  // console.log(page);
   return (
     <AppBar position='fixed' component='nav'>
       <Toolbar className='nav'>
@@ -18,9 +18,9 @@ export default function Header() {
             <span className='name'>Sarah Delaney</span>
           </Row>
           <Row className='links'>
-            <NavLink to="about" className={page ==='about' ? 'active' : ''} onClick={()=>setPage('about')}>About Me</NavLink>
-            <NavLink to="resume" className={page ==='resume' ? 'active' : ''} onClick={()=>setPage("resume")}>Resume</NavLink>
-            <NavLink to="/" className={page ==='contact' ? 'active' : ''} onClick={()=>setPage("contact")}>Contact</NavLink>
+            <NavLink to="about">About Me</NavLink>
+            <NavLink to="resume">Resume</NavLink>
+            <NavLink to="contact">Contact</NavLink>
           </Row>
         </Row>
       </Toolbar>

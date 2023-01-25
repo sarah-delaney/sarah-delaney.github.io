@@ -1,0 +1,19 @@
+.contactColumn {
+    align-items: center;
+}
+.contactItem {
+    display: flex;
+    align-items: center;
+}
+.MuiSvgIcon-root {
+    padding-right: 10px;
+}
+.contactTitle {
+    color: #2B405F;
+    font-size: 1.5em;
+    border-bottom: solid 2.5px #2B405F;
+    font-weight: 600;
+    padding: 0 0 20px 10px;
+    font-family: 'Montserrat';
+    margin-bottom: 30px;
+}
