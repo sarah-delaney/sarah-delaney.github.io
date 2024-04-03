@@ -2,7 +2,7 @@ import './Resume.css'
 import Column from "./Column";
 import Row from "./Row";
 import Download from '@mui/icons-material/Download';
-const pdf = require('../assets/pdf.pdf');
+const pdf = require('../assets/Sarah Delaney Resume.pdf');
 
 export default function Resume() {
     return <div className='content'><Column className='resume'>
@@ -10,39 +10,32 @@ export default function Resume() {
                 <Row className='resumeRow'>
                     <Column className='resumeSection'><span className='sectionTitle'>Education</span></Column>
                     <Column className='sectionContent'>
-                        <Column>
-                            <Row className='subTitle'>Northeastern University</Row>
-                            <Row className='italic'>Computer Science and Mathematics</Row>
-                            <span className='italic'>Relevant Classes:</span>
-                            <ul>
-                                <li>Fundamentals of Software Engineering</li>
-                                <li>Object Oriented Design</li>
-                                <li>Algorithms & Data</li>
-                                <li>Database Design</li>
-                                <li>Theory of Computation</li>
-                                <li>Logic & Computation</li>
-                                <li>Statistics & Stochastic Processes</li>
-                            </ul>
-                            <Row className='italic'>Northeastern Women's Rugby Treasurer</Row>
-                            <ul> 
-                                <li>Create budgets for each semester to anticipate required dues and fundraising</li>
-                                <li>Facilitate dues payments and organize payment plans</li>
-                                <li>Update monthly ledgers to keep track of transactions in the account</li>
-                            </ul>
-                        </Column>
-                        {/* <Row className='subTitle'>Notre Dame School of Manhattan</Row> */}
-                     </Column>
+                        <Row className='subTitle'>Northeastern University</Row>
+                        <Row className='italic'>Computer Science and Mathematics</Row>
+                        <span className='italic'>Relevant Classes:</span>
+                        <ul>
+                            <li>Fundamentals of Software Engineering</li>
+                            <li>Object Oriented Design</li>
+                            <li>Algorithms & Data</li>
+                            <li>Theory of Computation</li>
+                            <li>Logic & Computation</li>
+                            <li>Statistics & Stochastic Processes</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Matrix Methods for ML</li>
+                        </ul>
+                    </Column>
                 </Row>
                 <Row className='resumeRow'>
                     <Column className='resumeSection'><span className='sectionTitle'>Computer Knowledge</span></Column>
                     <Column  className='sectionContent'>
                         <Column>
                             <Row className='subTitle'>Languages/Frameworks</Row>
-                            <Row>JavaScript | Typescript | React | Node | SQL| Java | Spring Boot | Maven | Struts | JSP</Row>
+                            <Row>TypeScript | JavaScript | CSS | React | Node | SQL | Java | Spring Boot JPA | Maven | Struts | Python</Row>
                         </Column>
-                        <Column><
-                            Row className='subTitle'>Technologies</Row>
-                            <Row>Git | AWS | GCP | Postman | Elasticsearch | Kibana</Row>
+                        <Row className='subTitle'></Row>
+                        <Column>
+                            <Row className='subTitle'>Technologies</Row>
+                            <Row>Git | AWS | GCP | Postman | Elasticsearch | Docker | Cypress | JUnit</Row>
                         </Column>
                         
                     </Column>
@@ -50,7 +43,15 @@ export default function Resume() {
                 <Row className='resumeRow'>
                     <Column className='resumeSection'><span className='sectionTitle'>Work Experience</span></Column>
                     <Column  className='sectionContent'>
-                        <Row className='subTitle'>CRIO</Row>
+                    <Row className='subTitle'>WHOOP</Row>
+                        <ul>
+                            <li>Programmed and deployed frontend components for site-wide promotions, including dynamic, currency-specific banners, resulting in the most successful sales period in company history</li>
+                            <li>Conducted A/B testing on eCommerce sites using Datadog metrics and Amplitude tracking to measure success and user conversion, working with Product, Marketing, and QA teams to facilitate rollout</li>
+                            <li>Addressed technical debt in Java backend services for managing subscriptions and memberships by rewriting endpoints, fixing existing bugs, and abstracting duplicated code</li>
+                            <li>Authored detailed technical plans for full-stack projects, incorporating team feedback and implementing code changes</li>
+                            <li>Contributed to a rewrite of the Join flow website from Angular to Next.js, which was A/B tested in production</li>
+                        </ul>
+                        <Row className='subTitle'>Clinical Research IO</Row>
                         <ul>
                             <li>Designed, built, tested, and maintained a new React component library used in all team's frontend applications</li>
                             <li>Contributed to the finalization of the first milestone of eSource rewrite initiative as the primary developer</li>
