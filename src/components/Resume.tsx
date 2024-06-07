@@ -11,7 +11,7 @@ export default function Resume() {
                     <Column className='resumeSection'><span className='sectionTitle'>Education</span></Column>
                     <Column className='sectionContent'>
                         <Row className='subTitle'>Northeastern University</Row>
-                        <Row className='italic'>Computer Science and Mathematics</Row>
+                        <Row className='italic'>BS Computer Science and Mathematics, GPA: 3.91</Row>
                         <span className='italic'>Relevant Classes:</span>
                         <ul>
                             <li>Fundamentals of Software Engineering</li>
@@ -43,7 +43,9 @@ export default function Resume() {
                 <Row className='resumeRow'>
                     <Column className='resumeSection'><span className='sectionTitle'>Work Experience</span></Column>
                     <Column  className='sectionContent'>
-                    <Row className='subTitle'>WHOOP</Row>
+                        <Row className='subTitle'>WHOOP</Row>
+                        <Row className='jobTitle italic'><div>Software Engineer</div><div>May 2024 - Present</div></Row>
+                        <Row className='jobTitle italic'><div>Web Developer Co-op</div><div>July 2023 - December 2023</div></Row>
                         <ul>
                             <li>Programmed and deployed frontend components for site-wide promotions, including dynamic, currency-specific banners, resulting in the most successful sales period in company history</li>
                             <li>Conducted A/B testing on eCommerce sites using Datadog metrics and Amplitude tracking to measure success and user conversion, working with Product, Marketing, and QA teams to facilitate rollout</li>
@@ -52,6 +54,7 @@ export default function Resume() {
                             <li>Contributed to a rewrite of the Join flow website from Angular to Next.js, which was A/B tested in production</li>
                         </ul>
                         <Row className='subTitle'>Clinical Research IO</Row>
+                        <Row className='jobTitle italic'><div>Software Engineering Co-op</div><div>July 2022 - June 2023</div></Row>
                         <ul>
                             <li>Designed, built, tested, and maintained a new React component library used in all team's frontend applications</li>
                             <li>Contributed to the finalization of the first milestone of eSource rewrite initiative as the primary developer</li>
@@ -61,6 +64,7 @@ export default function Resume() {
                             <li>Presented achievements to the entire company (40+ employees)</li>
                         </ul>
                         <Row className='subTitle'>PowerAdvocate</Row>
+                        <Row className='jobTitle italic'><div>Software Engineering Co-op</div><div>July 2021 - January 2022</div></Row>
                         <ul>
                             <li>Created search filters in React app for PowerAdvocate's Supplier Search to enhance user experience</li>
                             <li>Expanded supplier search microservice by syncing data from an Oracle database into Elasticsearch</li>
@@ -68,7 +72,8 @@ export default function Resume() {
                             <li>Worked on adapting the supplier search react app to be used within different products on PowerAdvocate's platform</li>
                             <li>Presented at a departmentwide Product Review meeting, giving an overview of new supplier search features released and their business value</li>
                         </ul>
-                        <Row className='subTitle'>Northeastern</Row>
+                        <Row className='subTitle'>Northeastern University</Row>
+                        <Row className='jobTitle italic'><div>Peer Tutor</div><div>September 2020 - May 2022</div></Row>
                         <ul>
                             <li>Tutored Northeastern students in Mathematics classes to improve students' class performance</li>
                             <li>Assessed student's goals for the session and prepare material in advance to excel students' understanding of material</li>

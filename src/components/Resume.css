@@ -35,15 +35,13 @@
 }
 .italic {
     font-style: italic;
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 .sectionContent {
     font-family: 'Poppins';
 }
-ul {
-    margin-top: 0;
-}
 .resumeRow {
     padding-bottom: 30px;
+}
+.jobTitle {
+    justify-content: space-between;
 }
