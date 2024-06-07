@@ -8,24 +8,6 @@ export default function Resume() {
     return <div className='content'><Column className='resume'>
         <Row className='downloadRow'><a className='downloadLink' href={pdf} target='_blank'><Row>Resume<Download className='downloadIcon'/></Row></a></Row>
                 <Row className='resumeRow'>
-                    <Column className='resumeSection'><span className='sectionTitle'>Education</span></Column>
-                    <Column className='sectionContent'>
-                        <Row className='subTitle'>Northeastern University</Row>
-                        <Row className='italic'>BS Computer Science and Mathematics, GPA: 3.91</Row>
-                        <span className='italic'>Relevant Classes:</span>
-                        <ul>
-                            <li>Fundamentals of Software Engineering</li>
-                            <li>Object Oriented Design</li>
-                            <li>Algorithms & Data</li>
-                            <li>Theory of Computation</li>
-                            <li>Logic & Computation</li>
-                            <li>Statistics & Stochastic Processes</li>
-                            <li>Artificial Intelligence</li>
-                            <li>Matrix Methods for ML</li>
-                        </ul>
-                    </Column>
-                </Row>
-                <Row className='resumeRow'>
                     <Column className='resumeSection'><span className='sectionTitle'>Computer Knowledge</span></Column>
                     <Column  className='sectionContent'>
                         <Column>
@@ -77,6 +59,24 @@ export default function Resume() {
                         <ul>
                             <li>Tutored Northeastern students in Mathematics classes to improve students' class performance</li>
                             <li>Assessed student's goals for the session and prepare material in advance to excel students' understanding of material</li>
+                        </ul>
+                    </Column>
+                </Row>
+                <Row className='resumeRow'>
+                    <Column className='resumeSection'><span className='sectionTitle'>Education</span></Column>
+                    <Column className='sectionContent'>
+                        <Row className='subTitle'>Northeastern University</Row>
+                        <Row className='italic'>BS Computer Science and Mathematics, GPA: 3.91</Row>
+                        <span className='italic'>Relevant Classes:</span>
+                        <ul>
+                            <li>Fundamentals of Software Engineering</li>
+                            <li>Object Oriented Design</li>
+                            <li>Algorithms & Data</li>
+                            <li>Theory of Computation</li>
+                            <li>Logic & Computation</li>
+                            <li>Statistics & Stochastic Processes</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Matrix Methods for ML</li>
                         </ul>
                     </Column>
                 </Row>
